@@ -1,7 +1,8 @@
 body{
-    background: black;
+    background:  url(img/backgroudotoño.jpg);
+    background-size: cover;
 }
-
+ 
 
 .barnav{
     background-color: rgb(232, 199, 159);;
@@ -30,8 +31,8 @@ body{
 }
 
 .barnav ul li a:hover{
-    background-color:rgb(232, 199, 159,0.5);
-    transform: translateY(-7px);
+    background-color:rgba(158, 136, 109, 0.5);
+    transform: translateY(-2px);
     font-size: 20px;
 }
 
@@ -67,6 +68,10 @@ body{
 .articuloGeneral a:hover{
     transform: translateY(-15%);
     background-color: rgb(232, 199, 159,0.5);
+}
+
+.articuloGeneral a{
+    margin: 20px;
 }
 
 
@@ -143,6 +148,15 @@ footer{
     border-radius: 5%;
 }
 
+.footer__button{
+    text-align: center;
+    padding: 10px;
+}
+
+.footer__button button{
+    box-shadow: 2px 2px rgb(0, 0,0);
+}
+
 
 .footer__copy{
     text-align: center;
@@ -150,3 +164,4 @@ footer{
 
 
 
+ 
