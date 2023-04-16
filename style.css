@@ -1,0 +1,152 @@
+body{
+    background: black;
+}
+
+
+.barnav{
+    background-color: rgb(232, 199, 159);;
+    height: 50px;
+}
+
+
+.barnav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.barnav ul li{
+    float: right;
+    
+}
+
+.barnav ul li a{
+    padding: 16px 16px;
+    display: block;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.barnav ul li a:hover{
+    background-color:rgb(232, 199, 159,0.5);
+    transform: translateY(-7px);
+    font-size: 20px;
+}
+
+.barnav ul li:last-child{
+    display: block;
+    text-align: center;
+    color: black;
+}
+
+.barnav ul li i{
+    position: absolute;
+    left: 1%;
+    top: 1%;
+    font-size: 30px;
+
+}
+
+
+.articuloGeneral{
+    position: relative;
+    margin-top: 10%;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    
+}
+
+.articuloGeneral a{
+    text-decoration: none;
+    color: #000;
+}
+
+.articuloGeneral a:hover{
+    transform: translateY(-15%);
+    background-color: rgb(232, 199, 159,0.5);
+}
+
+
+.ArticuloGeneral__seccionizquierda{
+    background-color: rgb(232, 199, 159);
+    width: 500px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 4%;
+   
+}
+
+.ArticuloGeneral__seccionizquierda img {
+    border-radius: 5%;
+}
+
+.articuloGeneral_seccioncentro{
+    background-color: rgb(232, 199, 159);
+    width: 500px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 4%;
+    margin-left: 1.5%;
+}
+
+.articuloGeneral_seccioncentro img{
+    border-radius: 5%;
+}
+
+
+.articuloGeneral__seccionderecha{
+    background-color: rgb(232, 199, 159);
+    width: 500px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 4%;
+    margin-left: 1.5%;
+    
+}
+
+.articuloGeneral__seccionderecha img{
+    border-radius: 5%;
+}
+
+
+footer{
+    margin-top: 20%;
+    background-color:rgb(232, 199, 159);
+}
+
+.footer__title h1{
+    padding-top: 1%;
+    text-align: center;
+}
+
+
+.footer__name{
+    text-align: center;
+    padding: 1%;
+}
+
+.footer__mail{
+    text-align: center;
+    padding: 1%;
+}
+
+.footer__textarea{
+    text-align: center;
+    padding: 1%;
+    
+}
+.footer__textarea textarea{
+    resize: none;
+    border-radius: 5%;
+}
+
+
+.footer__copy{
+    text-align: center;
+}
+
+
+
